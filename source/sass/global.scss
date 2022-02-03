@@ -1,0 +1,76 @@
+body {
+  min-width: 1920px;
+  margin: 0;
+  // background: linear-gradient(to bottom, transparent 8%, #3B181E 11% 100%),
+  //             url('../img/background.jpg');
+  // background-repeat: no-repeat;
+  // background-position: top center;   
+  font-family: "Montserrat", "Verdana", "Arial", "Helvetica", sans-serif; 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: $font-clr;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  word-wrap: normal;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  // font-family: "Forum", cursive, serif;
+  // font-weight: normal;
+  // font-style: normal;
+  // font-size: 0.75rem;
+  // line-height: 1.2em;
+  // letter-spacing: 0.1455em;
+  // text-transform: uppercase;
+  // color: $font-clr;
+
+  // background-color: rgba(0,0,0,0.4);
+  // border: 1px solid #fff;
+
+  // text-align: center;
+  // vertical-align: middle;
+  // display: block;
+  // width: 199px;
+  // padding: 1.42em 2.5em;
+}
+
+.container {
+  width: 1660px;
+  padding: 0 30px;
+  margin: 0 auto;
+
+  outline: 1px solid red;
+  outline-offset: -1px;
+}
+
+
