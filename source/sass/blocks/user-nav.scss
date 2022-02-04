@@ -1,0 +1,46 @@
+.user-nav {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	// margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px; 
+}
+
+.user-nav__link {
+	display: block;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+
+}
+
+.user-nav__item {
+	width: 60px;
+	height: 60px;
+	background-color: #fff;
+	border-radius: 50%;
+	background-image: url("../img/cart.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+
+.user-nav__item::before {
+	content: "1";
+	display: block;
+	width: 21px;
+	height: 21px;
+	border-radius: 50%;
+	background-color: $bgc-violet;
+	color: #fff;
+	font-weight: 600;
+	font-size: 0.875rem;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	top: 0px;
+	right: -7px;
+	line-height: 1.5em;
+
+}

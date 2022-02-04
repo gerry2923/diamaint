@@ -1,0 +1,25 @@
+.site-nav {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin-bottom: 0px;
+	padding-left: 0px;
+}
+
+.site-nav__item {
+	padding: 25px 15px;
+	margin-right: 12px;
+}
+
+.site-nav__link {
+	line-height: 0.1585em;
+}
+
+.site-nav__item-active {
+	border-radius: 3px;
+	background-color: rgba(81, 80, 118, 0.1);
+}
+
+.site-nav__item-active .site-nav__link {
+	color: $font-clr-dark;
+}

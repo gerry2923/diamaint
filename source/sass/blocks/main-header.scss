@@ -1,3 +1,33 @@
+// .main-header * :not(.container) {
+// 	outline: 1px dashed MidnightBlue;
+// 	outline-offset: -1px;;
+// }
+
 .main-header {
+	background-color: $background-dark;
+}
+
+.main-header__nav {
+	display: flex;
+	align-items: flex-start;
+	padding: 7px 126px 13px 110px;
+}
+
+.main-header__logo {
+	margin-left: 40px;
+	margin-right: 70px;
+}
+
+.main-header__site-nav {
+	margin-top: 1px;
+}
+
+.main-header__user-nav {
+	margin-left: auto;
+	margin-top: 8px;
+}
+
+.main-header__socials {
+	margin-left: 37px;
 
 }

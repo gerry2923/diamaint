@@ -1,0 +1,13 @@
+.catalog * :not(.container){
+	outline: 1px dashed navy;
+	outline-offset: -1px;
+}
+
+.catalog__title {
+	font-weight: 200;
+	font-size: 4.375rem;
+	line-height: 1.094em;
+	color: $bgc-violet;
+	text-align: center;
+	padding-left: 24px;
+}

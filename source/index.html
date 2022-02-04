@@ -14,9 +14,9 @@
 				<img src="../img/main-header-logo.png" width="67" height="67" alt="Логотип «Diamaint»">
 			</a>
 
-			<ul class="site-nav">
-				<li class="site-nav__item">
-					<a href="#" class="site-nav__link site-nav__link_active">О продукте</a>
+			<ul class="main-header__site-nav site-nav">
+				<li class="site-nav__item site-nav__item-active">
+					<a href="#" class="site-nav__link">О продукте</a>
 				</li>
 
 				<li class="site-nav__item">
@@ -36,15 +36,16 @@
 				</li>
 			</ul>
 
-			<ul class="user-nav">
-				<li class="user-nav__item">
-					<a href="#" class="user-nav__link cart">Корзина</a>
+			<ul class="main-header__user-nav user-nav">
+				<li class="user-nav__item cart">
+					<a href="#" class="user-nav__link">Корзина</a>
+					<!-- <a href="#" class="user-nav__link cart">Cart</a> -->
 				</li>
 			</ul>
 			
 			<ul class="main-header__socials socials">
 				<li class="socials__item instagram">
-					<a href="https:/www.nstagram.com" class="socials__link">Instagram</a>
+					<a class="socials__link" href="https:/www.nstagram.com" >Instagram</a>
 				</li>
 
 				<li class="socials__item facebook">
@@ -57,31 +58,42 @@
 	<main class="main-page">
 		<h1 class="visually-hidden">Интернет-магазин продажи натуральной ирландской косметики компании «Diamaint»</h1>
 
-		<section class="product-info">
-			<h2 class="product-info__title">Diamaint</h2>
-			<p class="product-info__subtitle">Натуральная косметика с привкусом Ирландии</p>
+		<section class="product-introduction">
+			<div class="container">
+				<h2 class="product-introduction__title">Diamaint</h2>
 
-			<dl class="product-info__definition">
-				<dt>Diamaint</dt>
-				<dd> - <strong>одуванчик</strong> в переводе с ирландского</dd>
-			</dl>
+				<div class="product-introduction__wrapper">
+					<div class="product-introduction__column">
+						<p class="product-introduction__subtitle">Натуральная косметика<br>с привкусом Ирландии</p>
 
-			<p class="product-info__text">Ингридиенты контролируются по качеству и происхождению. Большинство из них имеют органический сертификат Ecoсert и Soil Association. Сочетание компонентов в каждой линейке подобрано с учетом особенностей типа кожи.</p>
+						<p class="product-introduction__text">Ингридиенты контролируются по качеству и происхождению. Большинство из них имеют органический сертификат Ecoсert и Soil Association. Сочетание компонентов в каждой линейке подобрано с учетом особенностей типа кожи.</p>
+					</div>
 
-			<p class="product-info__text">Косметика, после которой вы уже никогда не будете прежней и обретёте новую жизнь, где наша продукция будет вашим верным спутником и помощником</p>
+					<div class="product-introduction__column">
+						<dl class="product-introduction__definition">
+							<dt>Diamaint</dt>
+							<dd> &#8212 <strong>одуванчик</strong> в переводе с ирландского</dd>
+						</dl>
 
-			<p class="product-info__text">Используем всю силу природы, а так же новейшие разработки индустрии вкупе традиционными ирландскими рецептами для того, чтобы придать вашей коже здоровый и цветущий вид</p>
+						<p class="product-introduction__text">Косметика, после которой вы уже никогда не будете прежней и обретёте новую жизнь, где наша продукция будет вашим верным спутником и помощником</p>
 
-			<p class="product-info__text">В основе — активные натуральные комплексы, витамины С, А, РР, В И Е, масла, воски, минералы и натуральные солнцезащитные компоненты. </p>
+						<p class="product-introduction__text">Используем всю силу природы, а так же новейшие разработки индустрии вкупе традиционными ирландскими рецептами для того, чтобы придать вашей коже здоровый и цветущий вид</p>
 
-			<p class="product-info__text product-info__text_summary">Diamaint — только натуральные ингридиенты</p>
+						<p class="product-introduction__text">В основе — активные натуральные комплексы, витамины С, А, РР, В И Е, масла, воски, минералы и натуральные солнцезащитные компоненты. </p>
 
-			<p class="product-info__text product-info__text_reference">Подбираем комплекс специально для вашего типа кожи</p>
+						<a href="#" class="product-introduction__button button">Выбрать продукт</a>
+					</div>
 
-			<a href="#" class="product-info__button button">Выбрать продукт</a>
+					<div class="product-introduction__column">
+						<p class="product-introduction__text_reference">Подбираем комплекс специально для вашего типа кожи</p>
+
+						<p class="product-introduction__text_summary">Diamaint — только натуральные ингридиенты</p>
+					</div>
+				</div>
+			</div>
 		</section>
 
-		<section class="catalog">
+		<section class="catalog container">
 			<h2 class="catalog__title">Выбери свой продукт</h2>
 
 			<ul class="catalog__list">

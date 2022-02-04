@@ -10,7 +10,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: $font-clr;
+  color: $font-clr-light;
+  background-color: $background-light;
 }
 
 img {
@@ -45,23 +46,23 @@ a {
 }
 
 .button {
-  // font-family: "Forum", cursive, serif;
-  // font-weight: normal;
-  // font-style: normal;
-  // font-size: 0.75rem;
-  // line-height: 1.2em;
-  // letter-spacing: 0.1455em;
-  // text-transform: uppercase;
-  // color: $font-clr;
+  font-family: "Montserrat", "Verdana", "Arial", "Helvetica", sans-serif; 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.1em;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: $background-light;
 
-  // background-color: rgba(0,0,0,0.4);
-  // border: 1px solid #fff;
+  background-color: $font-clr-dark;
+  border-radius: 100px;
 
-  // text-align: center;
-  // vertical-align: middle;
-  // display: block;
-  // width: 199px;
-  // padding: 1.42em 2.5em;
+  text-align: center;
+  vertical-align: middle;
+  display: block;
+  width: 270px;
+  padding: 2.2em 0px;
 }
 
 .container {
@@ -69,8 +70,8 @@ a {
   padding: 0 30px;
   margin: 0 auto;
 
-  outline: 1px solid red;
-  outline-offset: -1px;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 
 
