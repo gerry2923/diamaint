@@ -1,0 +1,25 @@
+.sales * :not(.container){
+	outline: 1px dashed limegreen;
+	outline-offset: -1px;
+}
+
+.sales__feature-list {
+	border: 1px dashed limegreen;
+}
+
+.sales {
+
+}
+
+.sales__wrapper {
+	display: flex;
+}
+
+.sales__title {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: 300;
+	font-size: 4.375rem;
+	line-height: 1.094em;
+	color: $bgc-violet;
+}

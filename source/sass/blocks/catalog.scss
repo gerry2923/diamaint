@@ -10,4 +10,22 @@
 	color: $bgc-violet;
 	text-align: center;
 	padding-left: 24px;
+	margin-bottom: 148px;
 }
+
+.catalog__list {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	column-gap: 30px;
+	align-items: flex-end;
+
+	outline: 1px solid limegreen;
+	outline-offset: -1px;
+}
+
+.catalog__item {
+
+}
+
+
