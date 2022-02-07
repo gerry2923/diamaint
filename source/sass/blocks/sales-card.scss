@@ -1,0 +1,144 @@
+$height: 600px;
+.sales-card,
+.sales-card * {
+	outline: 1px dashed magenta;
+	outline-offset: -1px;
+}
+.sales-card {
+	width: 350px;
+	height: $height;
+	margin-right: 35px;
+	background-color: $bgc-extra-light-gray;
+}
+
+.sales-card__title {
+	font-weight: 400;
+	font-size: 2.25rem;
+	line-height: 1.36em;
+	text-transform: uppercase;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 26px;
+	padding-bottom: 23px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 350px;
+	background-color: rgba(81, 80, 118, 0.1);
+	color: $font-clr-dark;
+}
+
+.sales-card img {
+	margin-top: 9px;
+}
+
+.sales-card__text {
+	font-weight: 400;
+	font-size: 1.125rem;
+	line-height: 1.36em;
+	color: $font-clr-dark;
+	padding-left: 40px;
+	padding-right: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sales-card__price-wrapper {
+	display: flex;
+	width: 100%;
+	padding-left: 40px;
+	padding-right: 39px;
+	margin-top: 41px;
+	margin-bottom: 10px;
+
+}
+
+.sales-card__old-price {
+	font-weight: 500;
+	font-size: 1.125rem;
+	line-height: 1.36em;
+	text-transform: uppercase;
+	text-decoration: line-through;
+	color: rgba(81, 80, 118, 0.6);
+	margin-right: 15px;
+}
+
+.sales-card__new-price {
+	font-weight: 500;
+	font-size: 1.25rem;
+	line-height: 1.15em;
+	color: rgba(81, 80, 118, 0.8);
+}
+
+.add-to-cart {
+	display: block;
+	width: 29px;
+	height: 29px;
+	text-indent: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	background-image: url("../img/add-to-cart.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin-left: auto;
+	margin-right: 0px;
+}
+
+// ----------------------------------
+.sales-card:nth-child(2) {
+	height: $height + 100px ;
+
+	.sales-card__title {
+		padding-left: 18px;
+		padding-right: 0px;
+		padding-top: 51px;
+		padding-bottom: 50px;
+		font-weight: 500;
+	}
+
+	& img {
+		margin-top: 57px;
+	}
+
+	.sales-card__text {
+		padding-left: 40px;
+		padding-right: 42px;
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.sales-card__price-wrapper {
+		margin-top: 16px;
+	}	
+}
+
+// -  -  -  -  -  
+.sales-card:nth-child(3) {
+	height: $height + 200px;
+
+	.sales-card__title {
+		padding-left: 13px;
+		padding-top: 75px;
+		padding-bottom: 75px;
+		font-weight: 600;
+	}
+
+	& img {
+		margin-top: 108px;
+	}
+
+	.sales-card__text {
+		padding-left: 40px;
+		padding-right: 42px;
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.sales-card__price-wrapper {
+		margin-top: 16px;
+	}	
+}
+

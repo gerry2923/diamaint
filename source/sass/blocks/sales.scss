@@ -1,10 +1,6 @@
-.sales * :not(.container){
+.sales * :not(.container) :not(.sales__feature-list) :not(.sales__wrapper) :not(.sales__list){
 	outline: 1px dashed limegreen;
 	outline-offset: -1px;
-}
-
-.sales__feature-list {
-	border: 1px dashed limegreen;
 }
 
 .sales {
@@ -13,13 +9,99 @@
 
 .sales__wrapper {
 	display: flex;
+	margin-bottom: 150px;
+	padding-bottom: 90px;
+
+	outline: 1px dashed brown;
+	outline-offset: -1px;
+}
+
+.column-text {
+	padding-right: 10px;
+	padding-left: 119px;
+	margin-right: 197px;
 }
 
 .sales__title {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	font-weight: 300;
+	margin-top: 120px;
+	margin-bottom: 93px;
+	font-weight: 200;
 	font-size: 4.375rem;
 	line-height: 1.094em;
 	color: $bgc-violet;
+}
+
+.sales__text {
+	width: 330px;
+	font-size: 1.125rem;
+	line-height: 2.0em;
+	margin-top: 0px;
+	margin-bottom: 110px;
+	letter-spacing: 0.008em;
+}
+
+.sales__button-wrapper {
+
+}
+
+.sales__button {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 4.590625rem;
+	height: 4.590625rem;
+	border: 1px solid $font-clr-light;
+	border-radius: 50%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 13px 0px 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.sales__button_prev {
+	background-image: url("../img/arrow_left.svg");
+	opacity: 40%;
+}
+
+.sales__button_next {
+	background-image: url("../img/arrow_right.svg");
+}
+
+.sales__feature-list {
+	width: 810px;
+	height: 521px;
+	margin-top: 96px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+	padding-top: 84px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 62px;
+	list-style-type: none;
+	position: relative;
+	background-color: $bgc-extra-light-gray;
+}
+
+.sales__feature-list::before {
+	content: "";
+	width: 810px;
+	height: 521px;
+	background-color: $font-clr-dark;
+	position: absolute;
+	top: 40px;
+	left: -40px;
+	z-index: -1;
+} 
+
+.sales__list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 30px 188px 0px 0px;
+	outline: 1px dashed brown;
+	outline-offset: -1px;
 }
