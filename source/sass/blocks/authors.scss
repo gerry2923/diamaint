@@ -1,0 +1,108 @@
+.authors * {
+	outline: 1px dotted limegreen;
+	outline-offset: -1px;
+}
+
+.authors__wrapper {
+	display: flex;
+}
+
+.authors__column-text {
+	width: 825px;
+	padding-left: 118px;
+	padding-right: 46px;
+}
+
+.authors__column-picture {
+	width: 775px;
+	padding-top: 110px;
+	padding-left: 79px;
+	background-color: #FAFAFA;
+}
+
+.authors__title {
+	font-weight: 200;
+	font-size: 4.375rem;
+	font-style: normal;
+	line-height: 1.094em;
+	letter-spacing: 0em;
+	color: $bgc-violet;
+	margin-top: 0px;
+	margin-bottom: 48px;
+}
+
+.authors__name {
+	font-weight: 500;
+	font-size: 1.25rem;
+	font-style: normal;
+	line-height: 2em;
+	letter-spacing: 0em;
+	color: $font-clr-dark;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 18px;
+}
+
+.authors__info {
+	font-weight: 500;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 1.8em;
+	letter-spacing: 0em;
+	color: $font-clr-light;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.authors__quote {
+	font-weight: 600;
+	font-size: 1.125rem;
+	font-style: normal;
+	line-height: 1.59em;
+	letter-spacing: 0em;
+	color: $font-clr-light;
+	margin-top: 42px;
+	margin-bottom: 72px;
+	margin-left: 66px;
+	padding-right: 32px;
+	quotes: '\201C' '\201E'  '\00AB' '\00BB' ;
+	position: relative;
+}
+
+.authors__quote::before {
+	content: open-quote;
+	font-family: "Circe", "Arial", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 3.75rem;
+	line-height: 1.8em;
+	color: #77877F;
+	position: absolute;
+	top: -17px;
+	left: -66px;
+}
+
+.authors__gallery {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	column-gap: 65px;
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.authors__picture {
+	border-top: 6px solid $font-clr-dark;
+	padding-left: 0px;
+}
+
+.authors__picture:not(.current-picture) {
+	opacity: 50%;
+}
+
+
+.authors__img {
+
+}
+

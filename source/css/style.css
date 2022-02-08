@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Montserrat";
   font-weight: 200;
@@ -836,13 +837,9 @@ a {
   margin-top: 16px;
 }
 
-.product-info * :not(.container) :not(.product-info__facts) {
-  outline: 1px dashed MidnightBlue;
-  outline-offset: -1px;
-}
-
 .product-info {
   background: linear-gradient(to bottom, #fff 10.6%, #EDECF6 10.6% 100%);
+  margin-bottom: 150px;
 }
 
 .product-info__text {
@@ -1037,5 +1034,205 @@ a {
 
 .advice__item:nth-child(3) .advice__item-title {
   padding-right: 40px;
+}
+
+.authors * {
+  outline: 1px dotted limegreen;
+  outline-offset: -1px;
+}
+
+.authors__wrapper {
+  display: flex;
+}
+
+.authors__column-text {
+  width: 825px;
+  padding-left: 118px;
+  padding-right: 46px;
+}
+
+.authors__column-picture {
+  width: 775px;
+  padding-top: 110px;
+  padding-left: 79px;
+  background-color: #FAFAFA;
+}
+
+.authors__title {
+  font-weight: 200;
+  font-size: 4.375rem;
+  font-style: normal;
+  line-height: 1.094em;
+  letter-spacing: 0em;
+  color: #757AA5;
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
+
+.authors__name {
+  font-weight: 500;
+  font-size: 1.25rem;
+  font-style: normal;
+  line-height: 2em;
+  letter-spacing: 0em;
+  color: #515076;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 18px;
+}
+
+.authors__info {
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.8em;
+  letter-spacing: 0em;
+  color: #888794;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.authors__quote {
+  font-weight: 600;
+  font-size: 1.125rem;
+  font-style: normal;
+  line-height: 1.59em;
+  letter-spacing: 0em;
+  color: #888794;
+  margin-top: 42px;
+  margin-bottom: 72px;
+  margin-left: 66px;
+  padding-right: 32px;
+  quotes: "“" "„" "«" "»";
+  position: relative;
+}
+
+.authors__quote::before {
+  content: open-quote;
+  font-family: "Circe", "Arial", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 3.75rem;
+  line-height: 1.8em;
+  color: #77877F;
+  position: absolute;
+  top: -17px;
+  left: -66px;
+}
+
+.authors__gallery {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  column-gap: 65px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.authors__picture {
+  border-top: 6px solid #515076;
+  padding-left: 0px;
+}
+
+.authors__picture:not(.current-picture) {
+  opacity: 50%;
+}
+
+.main-footer * {
+  outline: 1px dashed green;
+  outline-offset: -1px;
+}
+
+.main-footer__wrapper {
+  width: 531px;
+  height: 351px;
+  background-color: #F7F7FA;
+  margin-top: 244px;
+  margin-bottom: 0px;
+  margin-left: 277px;
+  padding-top: 50px;
+  padding-left: 79px;
+  border-top: 6px solid #515076;
+  outline: 1px dashed red;
+  outline-offset: -1px;
+}
+
+.contacts__title {
+  font-weight: 200;
+  font-size: 4.375rem;
+  font-style: normal;
+  line-height: 1.094em;
+  color: #757AA5;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.contacts__phone {
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 2em;
+  color: #828282;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  padding-left: 8px;
+}
+
+.contacts__address {
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 2em;
+  color: #828282;
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 26px;
+  padding-left: 9px;
+}
+
+.main-footer .contacts__socials {
+  list-style: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-footer .contacts__socials-item {
+  position: relative;
+}
+
+.main-footer .contacts__socials-item::before {
+  content: "";
+  display: block;
+  width: 1.400625rem;
+  height: 1.2025rem;
+  position: absolute;
+}
+
+.main-footer .contacts__socials-link {
+  display: inline-block;
+  width: 0px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.fb::before {
+  background-image: url("../img/facebook.svg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 1.400625rem 1.2025rem;
+  top: 0px;
+  left: 8px;
+}
+
+.inst::before {
+  background-image: url("../img/insta.svg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 1.400625rem 1.221875rem;
+  top: 0px;
+  left: 56px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,101 @@
+.main-footer * {
+	outline: 1px dashed green;
+	outline-offset: -1px;
+}
+
+
+.main-footer__wrapper {
+	width: 531px;
+	height: 351px;
+	background-color: #F7F7FA;
+	margin-top: 244px;
+	margin-bottom: 0px;
+	margin-left: 277px;
+
+	padding-top: 50px;
+	padding-left: 79px;;
+	border-top: 6px solid $font-clr-dark;
+
+	outline: 1px dashed red;
+	outline-offset: -1px;
+}
+
+.contacts__title {
+	font-weight: 200;
+	font-size: 4.375rem;
+	font-style: normal;
+	line-height: 1.094em;
+	color: $bgc-violet;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+.contacts__phone {
+	font-weight: 500;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 2em;
+	color: #828282;
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 16px;
+	padding-left: 8px;;
+}
+
+.contacts__address {
+	font-weight: 500;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 2em;
+	color: #828282;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 26px;
+	padding-left: 9px;
+}
+
+
+.main-footer .contacts__socials{
+	list-style: none;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+}
+
+.main-footer .contacts__socials-item {
+	position: relative;
+}
+
+.main-footer .contacts__socials-item::before {
+	content: "";
+	display: block;
+	width: 1.400625rem;
+	height:  1.2025rem;
+	position: absolute;
+}
+
+.main-footer .contacts__socials-link {
+	display: inline-block;
+	width: 0px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.fb::before {
+	background-image: url("../img/facebook.svg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 1.400625rem 1.2025rem;
+	top: 0px;
+	left: 8px;
+}
+
+.inst::before {
+	background-image: url("../img/insta.svg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 1.400625rem 1.221875rem;
+	top: 0px;
+	left: 56px;
+}
