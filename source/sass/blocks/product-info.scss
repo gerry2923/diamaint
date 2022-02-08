@@ -1,8 +1,25 @@
-.product-info * :not(.container) {
+.product-info * :not(.container) :not(.product-info__facts) {
 	outline: 1px dashed MidnightBlue;
 	outline-offset: -1px;;
 }
 
 .product-info {
-	
+	// height: 1244px;
+	// background: linear-gradient(to bottom, #EE82EE 221px, #EDECF6 221px 1244px);
+	background: linear-gradient(to bottom, #fff 10.6%, #EDECF6 10.6% 100%);
 }
+
+.product-info__text {
+	font-family: "Playfair Display", "Arial", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20.625rem;
+	line-height: 0.924em;
+	color: #D6D4E7;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-right: 24px;
+	text-align: center;
+}
+
+

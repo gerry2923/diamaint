@@ -529,6 +529,10 @@ a {
   outline-offset: -1px;
 }
 
+.sales {
+  margin-bottom: 143px;
+}
+
 .sales__wrapper {
   display: flex;
   margin-bottom: 150px;
@@ -830,5 +834,208 @@ a {
 }
 .sales-card:nth-child(3) .sales-card__price-wrapper {
   margin-top: 16px;
+}
+
+.product-info * :not(.container) :not(.product-info__facts) {
+  outline: 1px dashed MidnightBlue;
+  outline-offset: -1px;
+}
+
+.product-info {
+  background: linear-gradient(to bottom, #fff 10.6%, #EDECF6 10.6% 100%);
+}
+
+.product-info__text {
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20.625rem;
+  line-height: 0.924em;
+  color: #D6D4E7;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-right: 24px;
+  text-align: center;
+}
+
+.facts__wrapper {
+  display: flex;
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 1660px;
+  margin: 30px auto 0px;
+  outline: 2px solid orange;
+  outline-offset: -2px;
+}
+
+.facts__column-img {
+  width: 890px;
+}
+
+.facts__column-img img {
+  object-position: -72px 7px;
+  max-width: 1209px;
+  overflow: hidden;
+}
+
+.facts__column-text {
+  width: 510px;
+  padding-top: 117px;
+  margin-left: 117px;
+  padding-right: 55px;
+}
+
+.facts__title {
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.8em;
+  letter-spacing: 0.3em;
+  color: #A5A3B9;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 55px;
+}
+
+.facts__text_extra-big {
+  font-weight: 300;
+  font-size: 7.5rem;
+  line-height: 1.094em;
+  letter-spacing: 0em;
+  color: #515076;
+  display: inline-block;
+  margin-top: 21px;
+  margin-left: -4px;
+}
+
+.facts__text_big {
+  font-weight: 200;
+  font-size: 4.375rem;
+  font-style: normal;
+  line-height: 1.094em;
+  letter-spacing: 0em;
+  color: #515076;
+  display: inline-block;
+  margin-left: -4px;
+  text-transform: none;
+}
+
+.facts__text {
+  font-weight: 500;
+  line-height: 2em;
+  color: #888794;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -4px;
+}
+
+.advice__title {
+  font-weight: 200;
+  font-style: normal;
+  font-size: 4.375rem;
+  line-height: 1.094em;
+  color: #757AA5;
+  text-align: center;
+  margin-top: 103px;
+  margin-bottom: 74px;
+  padding-left: 23px;
+}
+
+.advice__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 24px;
+  height: 836px;
+  width: 1000px;
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 36px;
+  outline: 1px solid blue;
+  outline-offset: -1px;
+}
+
+.advice__item {
+  width: 300px;
+  height: 400px;
+  background-color: #F7F7FA;
+  border-top: 6px solid #515076;
+  padding-left: 3rem;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.advice__item-category {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 2em;
+  letter-spacing: 0.23em;
+  color: #A5A3B9;
+  text-transform: uppercase;
+  margin-top: -2px;
+  margin-bottom: 10px;
+}
+
+.advice__item-title {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.36em;
+  font-style: normal;
+  text-transform: none;
+  color: #515076;
+  padding-right: 50px;
+  margin-top: 0px;
+  margin-bottom: 29px;
+}
+
+.advice__item-text {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.8em;
+  color: #888794;
+  text-transform: none;
+  margin-top: 0px;
+  margin-bottom: 81px;
+  padding-right: 20px;
+}
+
+.advice__item-link {
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 2em;
+  letter-spacing: 0.23em;
+  color: #515076;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.advice__item-link::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 1px;
+  background-color: #515076;
+  position: absolute;
+  top: 6px;
+  left: -35px;
+}
+
+.advice__item:nth-child(1) {
+  margin: 9px 0 13px;
+}
+.advice__item:nth-child(1) .advice__item-title {
+  padding-right: 65px;
+}
+
+.advice__item:nth-child(4) {
+  margin: 0px 0 183px;
+}
+
+.advice__item:nth-child(3) .advice__item-title {
+  padding-right: 40px;
 }
 /*# sourceMappingURL=style.css.map */
