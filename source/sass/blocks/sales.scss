@@ -1,8 +1,3 @@
-.sales * :not(.container) :not(.sales__feature-list) :not(.sales__wrapper) :not(.sales__list){
-	outline: 1px dashed limegreen;
-	outline-offset: -1px;
-}
-
 .sales {
 	margin-bottom: 143px;
 }
@@ -11,9 +6,6 @@
 	display: flex;
 	margin-bottom: 150px;
 	padding-bottom: 90px;
-
-	outline: 1px dashed brown;
-	outline-offset: -1px;
 }
 
 .column-text {
@@ -102,6 +94,4 @@
 	margin-top: 0px;
 	margin-bottom: 0px;
 	padding: 30px 188px 0px 0px;
-	outline: 1px dashed brown;
-	outline-offset: -1px;
 }

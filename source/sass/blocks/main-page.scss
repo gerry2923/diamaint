@@ -1,0 +1,29 @@
+.main-page {
+
+}
+
+.main-page__wrapper {
+	margin: 0 auto;
+	width: 1920px;
+	padding-top: 128px;
+
+	background: url("../img/background-1.webp"),
+              url("../img/background-2.webp"),
+              url("../img/background-3.webp"),
+              url("../img/background-4.webp"),
+              url("../img/background-5.webp");
+
+  background-size:  1451px 1063px,
+                    816px 648px,
+                    1583px 1158px,
+                    873px 790px,
+                    1083px 1424px;
+
+  background-position:  546px -101px,
+                        77px 609px,
+                        354px 1026px,
+                        17px 1805px,
+                        17px 3202px;
+  background-repeat: no-repeat;
+
+}

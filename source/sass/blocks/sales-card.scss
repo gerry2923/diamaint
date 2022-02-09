@@ -1,9 +1,5 @@
 $height: 600px;
-.sales-card,
-.sales-card * {
-	outline: 1px dashed magenta;
-	outline-offset: -1px;
-}
+
 .sales-card {
 	width: 350px;
 	height: $height;

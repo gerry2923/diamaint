@@ -1,8 +1,10 @@
 .product-info {
-	// height: 1244px;
-	// background: linear-gradient(to bottom, #EE82EE 221px, #EDECF6 221px 1244px);
-	background: linear-gradient(to bottom, #fff 10.6%, #EDECF6 10.6% 100%);
+	background: linear-gradient(to bottom, 
+							#fff 209px, 
+							#EDECF6 209px 1232px, 
+							#fff 1232px 100%);
 	margin-bottom: 150px;
+	position: relative;
 }
 
 .product-info__text {
@@ -18,4 +20,16 @@
 	text-align: center;
 }
 
-
+.product-info__facts::after {
+	content: "";
+	display: block;
+	width: 638px;
+	height:  1196px;
+	background-image: url("../img/background-6.webp");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+	position: absolute;
+	top: 300px;
+	right: -17px;
+}

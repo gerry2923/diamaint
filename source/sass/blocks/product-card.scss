@@ -1,19 +1,16 @@
-.product-card *{
-	// outline: 1px dashed magenta;
-	// outline-offset: -1px;
-}
-
 .product-card {
 	width: 329px;
 	height: 521px;
 	background-color: $bgc-extra-light-gray;
 	display: flex;
 	flex-direction: column;
+	padding-top: 68px;
 }
 
 .discount {
 	width: 380px;
 	height: 600px;
+	position: relative;
 }
 
 .product-card__pic {
@@ -60,8 +57,9 @@
 	margin-left: 35px;
 	margin-bottom: 0px;
 	margin-top: 0px;
-	padding-top: 2px;
+	padding-top: 0px;
 	padding-bottom: 2px;
+	padding-right: 39px;
 }
 
 .product-card__price {
@@ -98,8 +96,6 @@
 	margin-left: 0px;
 }
 
-
-
 .add-to-cart {
 	display: block;
 	width: 29px;
@@ -126,6 +122,20 @@
 }
 
 .discount .add-to-cart {
-	margin-right: 48px;
-	margin-top: -5px;
+	margin-right: 9px;
+	margin-top: -3px;
+}
+
+.discount::before {
+	content: "";
+	display: block;
+	width: 4.17625rem;
+	height: 4.180625rem;
+	background-image: url("../img/discount.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	position: absolute;
+	top: 19px;
+	left: 16px;
 }
